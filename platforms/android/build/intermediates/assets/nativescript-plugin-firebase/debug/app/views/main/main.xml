@@ -1,0 +1,20 @@
+<Page loaded="pageLoaded">
+  <GridLayout rows="*,auto" columns="*">
+    <ScrollView id="message-list" class="border">
+      <Repeater items="{{ messages }}" >
+        <Repeater.itemTemplate>
+          <GridLayout columns="*,*,*,*" rows="auto,auto,auto">
+            <Label col="0" colSpan="2" row="1" text="{{ message }}" textWrap="true" class="user-messages"/>
+            <Label col="1" row="2" text="{{ name }}" textWrap="true" style="background-color:orange;" class="user-messages"/>            
+            <Image src="{{ img }}" col="0" colSpan="4" class="img" tap="growImage" style="background-color:#DBDBDB;"/>
+          </GridLayout>
+        </Repeater.itemTemplate>
+      </Repeater>
+    </ScrollView>
+    <GridLayout row="1" rows="*" columns="30,*,*,*,*" class="send-container">
+      <TextField col="0" colSpan="4" hint="no hands" id="input" textWrap="true" style="background-color:#DBDBDB;"/>
+      <Label col="0" tap="addImage" id="add-photo" text='&#xE251;' class="icons photo-icon"/>
+      <Button col="4" tap="sendMessage"  text="&#xE163;" class="icons send-button" style="background-color:green;"></Button>
+    </GridLayout>
+  </GridLayout>
+</Page>

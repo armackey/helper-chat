@@ -1,0 +1,80 @@
+GridLayout, Repeater {
+  padding: 2;
+/*  background-color: #7697A5;*/
+}
+
+TextField {
+  /*margin-left: 10;*/ 
+}
+
+Button {
+  padding: 2;
+}
+
+Label {
+  
+}
+
+.no-image {
+  display: none;
+}
+
+.no-messages {
+  font-size: 20;
+  horizontal-align: center;
+  vertical-align: center;
+}
+
+.photo-icon {
+  margin-left: 5;
+  font-size: 25;
+}
+
+#input {
+  font-size: 18;
+  font-weight: bold;
+  border-radius: 4;
+  padding-left: 40;
+  margin-right: -30;
+}
+
+.user-messages {
+  border-radius: 5; 
+  padding: 4;
+  border-color: black;
+  border-width: 2;
+
+  background-color: #B6E784;
+  /*horizontal-align: right;*/
+}
+
+.img {
+  height: 500;
+  width: 500;
+}
+
+.send-button {
+  margin: 2; 
+  width: 40; 
+  height: 40;
+  border-radius: 20; 
+  background-color: gainsboro; 
+  color: black;
+  horizontal-align: right;
+  margin-right: 3;
+}
+
+.border {
+  border-width: 1; 
+  margin: 5;
+}
+
+.send-container {
+  height: 60;
+  margin-left: 3;
+}
+
+.icons {
+  font-family: MaterialIcons-Regular, Material Icons;
+  vertical-align: center;
+}

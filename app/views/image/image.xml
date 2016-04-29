@@ -1,0 +1,16 @@
+<Page loaded="pageLoaded">
+  <Page.actionBar>
+    <!-- title attr. assigns the action bar a name -->
+    <ActionBar title="project_sms">
+      <!-- Givs us a back button -->
+      <NavigationButton text="Back" android.systemIcon="ic_menu_back" tap="goBack"/>
+    </ActionBar>
+  </Page.actionBar>
+  <StackLayout class="confirm-photo-pg">
+    <Image id="my-image" src="{{ photo }}"/>
+    <GridLayout rows="*,*,*" columns="*,*,*">
+      <Button row="0" col="0" colSpan="1" text="share photo" tap="sharePhoto" id="share-photo" style="background-color:red;"/>
+      <Button row="0" col="2" colSpan="2" text="wrong one" tap="goBack" id="share-photo" style="background-color:yellow;"/>
+    </GridLayout>
+  </StackLayout>
+</Page>

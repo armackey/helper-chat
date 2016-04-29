@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/RedWood/Desktop/NS-APPS/fb-practice/platforms/android/libs/nativescript.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72b585c3baffa7cb9fbecc8dd37cd89a127f17f5">
+        <dex dex="/Users/RedWood/Desktop/NS-APPS/fb-practice/platforms/android/build/intermediates/pre-dexed/nativescript-plugin-firebase/debug/nativescript_bee67d9b6246fbf9b4dbe0d6fbed6e4331bda0d0.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.3.4/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/RedWood/Desktop/NS-APPS/fb-practice/platforms/android/build/intermediates/pre-dexed/nativescript-plugin-firebase/debug/support-annotations-22.2.1_4cd7bd1be56baa5f8cf0d590be58bc6b3b942e2b.jar" />
+    </item>
+    <item
+        jar="/Users/RedWood/Desktop/NS-APPS/fb-practice/node_modules/nativescript-plugin-firebase/platforms/android/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
+        <dex dex="/Users/RedWood/Desktop/NS-APPS/fb-practice/platforms/android/build/intermediates/pre-dexed/nativescript-plugin-firebase/debug/firebase-client-android-2.5.2_d308bb6c8657ad3988c05c3e6bfe84dd67303579.jar" />
+    </item>
+
+</items>

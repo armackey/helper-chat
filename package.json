@@ -1,0 +1,13 @@
+{
+  "nativescript": {
+    "id": "org.nativescript.fbpractice",
+    "tns-android": {
+      "version": "1.7.1"
+    }
+  },
+  "dependencies": {
+    "nativescript-imagepicker": "0.0.4",
+    "nativescript-plugin-firebase": "^2.1.6",
+    "tns-core-modules": "1.7.1"
+  }
+}

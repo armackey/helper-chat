@@ -1,0 +1,5 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <Image id="my-image" src="{{ thumb }}" />
+  </StackLayout>
+</Page>

@@ -1,0 +1,5 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <Label text="i am test"></Label>
+  </StackLayout>
+</Page>

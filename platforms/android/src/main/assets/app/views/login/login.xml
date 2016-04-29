@@ -1,0 +1,7 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+    <TextField id="user-name"></TextField>
+    <TextField id="password"></TextField>
+    <Button id="loginButton"></Button>
+  </StackLayout>
+</Page>

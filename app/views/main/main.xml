@@ -1,0 +1,39 @@
+<Page loaded="pageLoaded">
+  <TabView>
+    <TabView.items>
+      <TabViewItem title="Current Messages">
+        <TabViewItem.view>
+          <GridLayout rows="*,auto" columns="*">
+            <ActivityIndicator busy="{{ isLoading }}" />
+            <Label text="{{ noMessages }}" class="no-messages"/>
+           <ScrollView id="message-list" class="border">
+             <Repeater items="{{ messages }}" >
+               <Repeater.itemTemplate>
+                 <GridLayout columns="*,*,*,*" rows="auto,auto,auto">
+                  <Label col="0" colSpan="2" row="1" text="{{ message }}" textWrap="true" class="{{ message ? 'user-messages' : 'no-img'}}"/>
+<!--                   <Label col="1" row="2" text="{{ name }}" textWrap="true" style="background-color:orange;" class="{{ name ? 'user-messages' : 'no-img'}}"/>  -->           
+                   <Image src="{{ img }}" col="0" colSpan="4" class="{{ img ? 'img' : 'no-img' }}" tap="growImage" style="background-color:#DBDBDB;"/>
+                 </GridLayout>
+               </Repeater.itemTemplate>
+             </Repeater>
+           </ScrollView>
+           <GridLayout row="1" rows="*" columns="30,*,*,*,*" class="send-container">
+             <TextField col="0" colSpan="4" hint="Feed Me :)" id="input" textWrap="true" style="background-color:#DBDBDB;"/>
+             <Label col="0" tap="addImage" id="add-photo" text='&#xE251;' class="icons photo-icon"/>
+             <Button col="4" tap="sendMessage"  text="&#xE163;" class="icons send-button" style="background-color:green;"/>
+           </GridLayout>
+         </GridLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem title="Threads">
+        <TabViewItem.view>
+           <Label text="Threads" />
+        </TabViewItem.view>
+
+      </TabViewItem>
+    </TabView.items>
+  </TabView>
+</Page>
+
+
+
